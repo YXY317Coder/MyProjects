@@ -6,20 +6,25 @@
 </head>
 <body>
     <h1>API Data Request</h1>
+    <input type = "input" id = 'tas'></input>
+    <button onclick = "pt()">Get Body API Return</button>
     <script>
-fetch('http://tinywebdb.appinventor.space/api?user=name317&secret=53c40c78&action=count')
-  .then(response => {
-    if (response.ok) {
-      return response.json(); 
+    function pt(){
+        var wd = document.getElementById('tas');
+        fetch(wd)
+          .then(response => {
+            if (response.ok) {
+              return response.json(); 
+            }
+            throw new Error('Network response was not ok.');
+          })
+          .then(data => {
+            document.write('API Response Body:', JSON.stringify(data));
+          })
+          .catch(error => {
+            document.write('Error fetching!');
+          });
     }
-    throw new Error('Network response was not ok.');
-  })
-  .then(data => {
-    document.write('API Response Body:', JSON.stringify(data));
-  })
-  .catch(error => {
-    document.write('Error fetching!');
-  });
     </script>
 </body>
 </html>
