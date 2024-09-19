@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API Request Example</title>
+</head>
+<body>
+    <h1>API Data Request</h1>
+    <script>
+fetch('http://tinywebdb.appinventor.space/api?user=name317&secret=53c40c78&action=count')
+  .then(response => {
+    if (response.ok) {
+      return response.json(); 
+    }
+    throw new Error('Network response was not ok.');
+  })
+  .then(data => {
+    document.write('API Response Body:', JSON.stringify(data));
+  })
+  .catch(error => {
+    document.write('Error fetching!');
+  });
+    </script>
+</body>
+</html>
