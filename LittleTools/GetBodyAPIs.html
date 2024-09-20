@@ -10,7 +10,7 @@
     <button onclick = "pt()">Get Body API Return</button>
     <script>
     function pt(){
-        var wd = document.getElementById('tas');
+        const wd = document.getElementById('tas').value;
         fetch(wd)
           .then(response => {
             if (response.ok) {
@@ -19,7 +19,7 @@
             throw new Error('Network response was not ok.');
           })
           .then(data => {
-            document.write('API Response Body:', JSON.stringify(data));
+            document.write(JSON.stringify(data));
           })
           .catch(error => {
             document.write('Error fetching!');
