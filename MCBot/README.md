@@ -12,7 +12,7 @@
  - 离线账号
  - 可自定义提示词（prompt）
  - 自定义玩家名称
- ![alt text](image.png)
+ - 效果 ![alt text](image.png)
 
 ## 部署
 
@@ -50,7 +50,7 @@
  - Offline account
  - Customizable prompt
  - Customizable player name.
- [alt text](image.png)
+ - [alt text](image.png)
 
 ## Deployment
  1. Download Node.js.
