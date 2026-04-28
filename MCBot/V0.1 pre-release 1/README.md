@@ -1,6 +1,6 @@
 # ChatBot in 落英乡坊（原H.O.P.E.）mc服务器
 
-## 版本号：V0.1 pre-release
+## 版本号：V0.1 pre-release 1
 
 ## 作者：YXY317Coder
 
