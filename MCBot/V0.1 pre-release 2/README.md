@@ -25,12 +25,11 @@
 ## 部署
 
  1. 下载 Node.js
- 2. 在命令行（Win+R输入cmd）中输入
+ 2. 在命令行（Win+R输入cmd）中输入 （可能还需要npm其它库，但我忘记了）
  ```bash
  npm install mineflayer
  npm install ws axios sharp
  ```
- （可能还需要npm其它库，但我忘记了）
  3. 更改`login.js`第32行（用户名），第38行的内容（密码），第5/6/7行的ai密钥等，以及所有的 `TOS317`（第8行的提示词可改可不改）
  4. 如需使用，可使用Node.js运行`login.js`。等控制台显示登录成功就可以在服务器聊天栏中发送含 `&tell` 的文本来与bot进行聊天啦
 
@@ -63,12 +62,11 @@
  ![alt text](image.png)
 ## Deployment
  1. Download Node.js
- 2. Enter in the command line (Win+R, enter cmd)
+ 2. Enter in the command line (Win+R, enter cmd)(There may be other npm libraries needed, but I forgot)
  ```bash
  npm install mineflayer
  npm install ws axios sharp url
  ```
- (There may be other npm libraries needed, but I forgot)
  3. Modify the content on line 32 (username), line 38 (password), line 5,6,7(spark lite ai passkeys) , and all instances of `TOS317` (the prompt word on line 8 can be modified or left unchanged) in `login.js`
  4. To use it, run `login.js` using Node.js. Once the console displays successful login, you can send a text containing `&tell` in the server chat to chat with the bot
 ## Note
