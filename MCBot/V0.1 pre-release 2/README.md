@@ -28,7 +28,7 @@
  2. 在命令行（Win+R输入cmd）中输入 （可能还需要npm其它库，但我忘记了）
  ```bash
  npm install mineflayer
- npm install ws axios sharp
+ npm install ws axios sharp url
  ```
  3. 更改`login.js`第32行（用户名），第38行的内容（密码），第5/6/7行的ai密钥等，以及所有的 `TOS317`（第8行的提示词可改可不改）
  4. 如需使用，可使用Node.js运行`login.js`。等控制台显示登录成功就可以在服务器聊天栏中发送含 `&tell` 的文本来与bot进行聊天啦
