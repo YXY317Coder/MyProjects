@@ -29,3 +29,9 @@ Example: `&tp Team1387_317`
  - restart.bat
 
 If the bot is been kicked,reconnect the server in 2 second.
+
+- do.txt
+
+You can talk without login your account!
+
+Run the bot and change `do.txt`, then the bot will talk.
