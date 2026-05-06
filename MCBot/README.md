@@ -6,6 +6,10 @@
 
 ## 版本
 
+V0.3 pre-release 3
+
+ - [更新](https://github.com/YXY317Coder/MyProjects/blob/main/MCBot/V0.1%20pre-release%203/Update.md)
+
 V0.1 pre-release 2
  - 支持一点点 `&set mode monitor`（监听模式）
  - 时刻记录日志 `./log/yyyy-mm-dd log.txt` 和 `./log/yyyy-mm-dd talk.txt`
@@ -27,6 +31,10 @@ V0.1 pre-release 1
 ## Made by YXY317Coder
 
 ## Version
+
+V0.1 pre-release 3
+
+ - [Updates](https://github.com/YXY317Coder/MyProjects/blob/main/MCBot/V0.1%20pre-release%203/Update.md)
 
 V0.1 pre-release 2
  - Support a little bit of `&set mode monitor` (monitor mode)
