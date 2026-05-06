@@ -25,4 +25,7 @@ Example: `&talk test` `&talk test any` `&talk test ["Team1387_317","TOS317"]`
 Tp to someone.(/tpa ...)
 
 Example: `&tp Team1387_317`
-: EX
+
+ - restart.bat
+
+If the bot is been kicked,reconnect the server in 2 second.
