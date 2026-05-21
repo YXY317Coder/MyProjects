@@ -1,0 +1,59 @@
+[
+    {
+        "basic": {
+            "host": "localhost",
+            "port": 55202, 
+            "username": "pls", 
+            "version": "1.21.11", 
+            "auth": "offline", 
+            "password": "/login"
+        },
+        "button": [
+            {"x": -380, "y": 116, "z": -1003, "id": 0},
+            {"x": -380, "y": 116, "z": -1005, "id": 1},
+            {"x": -380, "y": 116, "z": -1007, "id": 2}
+        ],
+        "act": [
+            {
+                "type": "end",
+                "message": [],
+                "next": []
+            },
+            {
+                "type": "talk",
+                "message": ["hi pls"],
+                "next": ["Hi，今天愉快吗？","[1]是的","[2]重来"]
+            },
+            {
+                "type": "talk",
+                "message": [],
+                "next": ["你想让我干什么呢","[1]讲个笑话","[2]Team1387_317的简称","[3]重来"]
+            },
+            {
+                "type": "talk",
+                "message": [],
+                "next": ["无论风雨，学生都得去上学(Rain or shine,students have to go to school..)||317不是在🤔就是即将🤔||说个废话，矿物流水线在新手面前很逆天||bf：我在你心中是第几位 you：第[1]位 （笑点解析：数组下标以0开始，所以第[1]位并不是第1位）"]
+            },
+            {
+                "type": "talk",
+                "message": [],
+                "next": ["317||三幺七"]
+            },
+            {
+                "type": "button",
+                "message": [0],
+                "next": [1,2,3,0,0]
+            },
+            {
+                "type": "button",
+                "message": [1],
+                "next": [0,0,4,0,0]
+            },
+            {
+                "type": "button",
+                "message": [2],
+                "next": [0,0,0,0,0]
+            }
+        ]
+    }
+]

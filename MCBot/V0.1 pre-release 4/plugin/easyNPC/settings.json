@@ -1,0 +1,12 @@
+{
+    "func": [
+        "start",
+        "act",
+        "change"
+    ],
+    "script": [
+        "spawn",
+        "playerMessage",
+        "blockUpdate"
+    ]
+}
