@@ -21,3 +21,5 @@ Other: Start by `login.js`
 Develop:
 
 You can make plugins
+
+[A Simple Guide](https://github.com/YXY317Coder/MyProjects/blob/main/MCBot/V0.1%20pre-release%204/plugin/How%20To%20Write%20A%20Plugin%20For%20MCBots.md)
