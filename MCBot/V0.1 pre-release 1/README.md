@@ -22,6 +22,7 @@
 ## 部署
 
  1. 下载 Node.js
+ 
  2. 在命令行（Win+R输入cmd）中输入
  ```bash
  npm install mineflayer
@@ -29,8 +30,11 @@
  ```
  （可能还需要npm其它库，但我忘记了）
  3. 前往 [讯飞平台](https://www.xfyun.cn/) 进行注册并[领取免费spark lite的api](https://blog.csdn.net/weixin_51390582/article/details/139815226)（其它ai的也可以）
+ 
  4. 获取到`APPID`，`APISecret`，`APIKey`后将其填入`login.js`的第4，5，6行
+ 
  5. 更改`login.js`第15行（用户名），第21行的内容（密码）（第8行的提示词可改可不改）
+ 
  6. 如需使用，可使用Node.js运行`login.js`。等控制台显示登录成功就可以在服务器聊天栏中发送含 `&tell` 的文本来与bot进行聊天啦
 
 ## 注意
