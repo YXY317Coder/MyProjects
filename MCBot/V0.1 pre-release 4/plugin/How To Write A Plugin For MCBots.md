@@ -23,7 +23,7 @@ function func(name,settings,bot,...args){
 3. `module.exports = func;`
 4. Code
 
-
+---
 
 `settings.json`: 
 
