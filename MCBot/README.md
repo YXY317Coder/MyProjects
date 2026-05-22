@@ -6,7 +6,11 @@
 
 ## 版本
 
-V0.3 pre-release 3
+V0.1 pre-release 4
+
+ - [更新（蹩脚英文）](https://github.com/YXY317Coder/MyProjects/blob/main/MCBot/V0.1%20pre-release%204/README.md)
+
+V0.1 pre-release 3
 
  - [更新](https://github.com/YXY317Coder/MyProjects/blob/main/MCBot/V0.1%20pre-release%203/Update.md)
 
