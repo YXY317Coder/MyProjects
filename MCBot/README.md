@@ -36,6 +36,10 @@ V0.1 pre-release 1
 
 ## Version
 
+V0.1 pre-release 4
+
+ - [Updates](https://github.com/YXY317Coder/MyProjects/blob/main/MCBot/V0.1%20pre-release%204/README.md)
+
 V0.1 pre-release 3
 
  - [Updates](https://github.com/YXY317Coder/MyProjects/blob/main/MCBot/V0.1%20pre-release%203/Update.md)
